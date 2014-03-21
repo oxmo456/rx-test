@@ -1,0 +1,13 @@
+{
+  "name": "rx-test",
+  "version": "0.0.1",
+  "main": "",
+  "ignore": [],
+  "dependencies": {
+    "angular-rx": "~0.0.3",
+    "rxjs": "~2.2.16",
+    "angular": "~1.2.14",
+    "bootstrap": "~3.1.1"
+  },
+  "devDependencies": {}
+}
