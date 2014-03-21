@@ -93,7 +93,8 @@ module.exports = function (grunt) {
             components: {
                 files: [
                     {expand: true, src: ["angular*/*"], cwd: "bower_components/", dest: "server/components/"},
-                    {expand: true, src: ["rxjs/*"], cwd: "bower_components/", dest: "server/components/"}
+                    {expand: true, src: ["rxjs/*"], cwd: "bower_components/", dest: "server/components/"},
+                    {expand: true, src: ["bootstrap/**/*.*"], cwd: "components/", dest: "../public/components/"}
                 ]
             },
             fonts: {
